@@ -1,4 +1,4 @@
-package com.example.str_producer.services;
+package com.example.producer.services;
 
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;

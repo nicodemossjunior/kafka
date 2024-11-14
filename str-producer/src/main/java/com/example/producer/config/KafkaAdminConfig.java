@@ -1,4 +1,4 @@
-package com.example.str_producer.config;
+package com.example.producer.config;
 
 import java.util.HashMap;
 

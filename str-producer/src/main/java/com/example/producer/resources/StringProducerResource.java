@@ -1,9 +1,9 @@
-package com.example.str_producer.resources;
+package com.example.producer.resources;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.str_producer.services.StringProducerService;
+import com.example.producer.services.StringProducerService;
 
 import lombok.RequiredArgsConstructor;
 
