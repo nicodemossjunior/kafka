@@ -9,8 +9,18 @@ import lombok.extern.log4j.Log4j2;
 @Component
 public class StrConcumerListener {
     
-    @KafkaListener(groupId = "group-1", topics = "str-topic", containerFactory = "strContainerFactory")
+    @KafkaListener(groupId = "group-0", topics = "str-topic", containerFactory = "strContainerFactory")
     public void create(String message) {
-       log.info("Receive message {}", message); 
+       log.info("CREATE ::: Receive message {}", message); 
+    }
+    
+    @KafkaListener(groupId = "group-1", topics = "str-topic", containerFactory = "strContainerFactory")
+    public void log(String message) {
+       log.info("LOG ::: Receive message {}", message); 
+    }
+    
+    @KafkaListener(groupId = "group-2", topics = "str-topic", containerFactory = "strContainerFactory")
+    public void history(String message) {
+       log.info("HISTORY ::: Receive message {}", message); 
     }
 }
