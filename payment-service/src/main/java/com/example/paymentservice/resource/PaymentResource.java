@@ -1,4 +1,4 @@
-package com.example.paymentservice.recource;
+package com.example.paymentservice.resource;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
