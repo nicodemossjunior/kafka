@@ -32,8 +32,8 @@ Este projeto é composto por quatro módulos implementados com Spring Boot: `pay
 Clone o repositório e navegue até o diretório do projeto:
 
 ```sh
-git clone <URL_DO_REPOSITORIO>
-cd <NOME_DO_DIRETORIO>
+git clone https://github.com/nicodemossjunior/kafka.git
+cd kafka
 ```
 
 ## Configuração
